@@ -72,7 +72,7 @@ body {
     font-weight: bold; 
 }
 
-@media screen and (max-width:500px){ 
+@media screen and (max-width:1024px){ 
     .divider{
         height: 600px;
         text-align: right;
