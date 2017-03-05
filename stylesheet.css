@@ -76,7 +76,7 @@ body {
     height: 600px;
     text-align: right;
     margin: 0;
-    background: url(https://natanelmiller.github.io/Pano%202.jpg) no-repeat center center fixed;
+    background: url(https://natanelmiller.github.io/Pano%202.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
