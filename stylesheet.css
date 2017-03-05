@@ -90,11 +90,7 @@ body {
     height: 600px;
     text-align: right;
     margin: 0;
-<<<<<<< HEAD
-    background: url(https://natanelmiller.github.io/Pano%202.JPG) no-repeat center center fixed;
-=======
     background: url(https://natanelmiller.github.io/Pano%202.jpg) no-repeat center center fixed;
->>>>>>> origin/master
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -149,5 +145,5 @@ body {
 }
 
 .footer h3{
-    padding: 25px;
+    padding-top: 35px;
 }
