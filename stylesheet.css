@@ -72,15 +72,34 @@ body {
     font-weight: bold; 
 }
 
-.divider {
+@media screen and (max-width:1024px){ 
+    .divider{
+        height: 600px;
+        text-align: right;
+        margin: 0;
+        background: url(https://natanelmiller.github.io/Pano%202.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+    }
+
+@media screen and (min-width:1024px){ 
+    .divider {
     height: 600px;
     text-align: right;
     margin: 0;
+<<<<<<< HEAD
     background: url(https://natanelmiller.github.io/Pano%202.JPG) no-repeat center center fixed;
+=======
+    background: url(https://natanelmiller.github.io/Pano%202.jpg) no-repeat center center fixed;
+>>>>>>> origin/master
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    }
 }
 
 .linebreak {
