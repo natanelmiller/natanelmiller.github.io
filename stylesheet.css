@@ -72,11 +72,21 @@ body {
     font-weight: bold; 
 }
 
-.divider {
+@media screen and (max-width:500px) .divider{
     height: 600px;
     text-align: right;
     margin: 0;
     background: url(https://natanelmiller.github.io/Pano%202.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+.divider {
+    height: 600px;
+    text-align: right;
+    margin: 0;
+    background: url(https://natanelmiller.github.io/Pano%202.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
